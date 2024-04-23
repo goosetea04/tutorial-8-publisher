@@ -6,6 +6,12 @@ b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 
 - If the URL "amqp://guest:guest@localhost:5672" is used in the publisher program, it means that the publisher program is also configured to connect to the same AMQP server running on the local machine.
 
-Running RabbitMQ as message broker.
+## Running RabbitMQ as message broker.
 
 ![alt text](image.png)
+
+## Monitoring chart based on publisher
+
+![alt text](image-1.png)
+
+I ran publisher 3 times, which is why there are 3 spikes in this photo. The reason there are 3 spikes is that it corresponds to the 3 times I ran the publisher. 
